@@ -2,18 +2,8 @@ const express = require("express");
 const app = express();
 const cors = require("cors");
 const PORT = 8000;
-const MongoClient = require("mongodb").MongoClient;
-require("dotenv").config();
 
-let db,
-    dbConnectionStr = process.env.DB_STRING,
-    dbName = "starter"
-
-MongoClient.connect(dbConnectionStr, { useUnifiedTopology: true })
-    .then(client => {
-        console.log(`Connected to ${dbName} Database`);
-        db = client.db(dbName);
-    });
+app.use(cors());
 
 const pokemon = {
     "bulbasaur": {
@@ -269,8 +259,6 @@ const pokemon = {
         "image": null
     }
 }
-
-app.use(cors());
 
 app.get("/", (request, response) => {
     response.sendFile(__dirname + "/index.html");
