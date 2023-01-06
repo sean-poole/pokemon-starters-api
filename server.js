@@ -9,7 +9,8 @@ const pokemon = {
         "type": ["Grass", "Poison"],
         "generation": "Gen 1",
         "ability": ["Overgrow", "Chlorophyll"],
-        "number": "001"
+        "number": "001",
+        "image": "https://archives.bulbagarden.net/media/upload/thumb/2/21/001Bulbasaur.png/250px-001Bulbasaur.png"
     },
     "charmander": {
         "name": "Charmander",
@@ -17,7 +18,8 @@ const pokemon = {
         "type": ["Fire"],
         "generation": "Gen 1",
         "ability": ["Blaze", "Solar Power"],
-        "number": "004"
+        "number": "004",
+        "image": "https://archives.bulbagarden.net/media/upload/thumb/7/73/004Charmander.png/250px-004Charmander.png"
     },
     "squirtle": {
         "name": "Squirtle",
@@ -25,7 +27,8 @@ const pokemon = {
         "type": ["Water"],
         "generation": "Gen 1",
         "ability": ["Torrent", "Rain Dish"],
-        "number": "007"
+        "number": "007",
+        "image": "https://archives.bulbagarden.net/media/upload/thumb/3/39/007Squirtle.png/250px-007Squirtle.png"
     },
     "chikorita": {
         "name": "Chikorita",
@@ -33,7 +36,8 @@ const pokemon = {
         "type": ["Grass"],
         "generation": "Gen 2",
         "ability": ["Overgrow", "Leaf Guard"],
-        "number": "152"
+        "number": "152",
+        "image": "https://archives.bulbagarden.net/media/upload/thumb/b/bf/152Chikorita.png/250px-152Chikorita.png"
     },
     "cyndaquil": {
         "name": "Cyndaquil",
@@ -41,7 +45,8 @@ const pokemon = {
         "type": ["Fire"],
         "generation": "Gen 2",
         "ability": ["Blaze", "Flash Fire"],
-        "number": "155"
+        "number": "155",
+        "image": "https://archives.bulbagarden.net/media/upload/thumb/9/9b/155Cyndaquil.png/250px-155Cyndaquil.png"
     },
     "totodile": {
         "name": "Totodile",
@@ -49,7 +54,8 @@ const pokemon = {
         "type": ["Water"],
         "generation": "Gen 2",
         "ability": ["Torrent", "Sheer Force"],
-        "number": "158"
+        "number": "158",
+        "image": "https://archives.bulbagarden.net/media/upload/thumb/d/df/158Totodile.png/250px-158Totodile.png"
     },
     "treecko": {
         "name": "Treecko",
@@ -57,7 +63,8 @@ const pokemon = {
         "type": ["Grass"],
         "generation": "Gen 3",
         "ability": ["Overgrow", "Unburden"],
-        "number": "252"
+        "number": "252",
+        "image": "https://archives.bulbagarden.net/media/upload/thumb/2/2c/252Treecko.png/250px-252Treecko.png"
     },
     "torchic": {
         "name": "Torchic",
@@ -65,7 +72,8 @@ const pokemon = {
         "type": ["Fire"],
         "generation": "Gen 3",
         "ability": ["Blaze", "Speed Boost"],
-        "number": "255"
+        "number": "255",
+        "image": "https://archives.bulbagarden.net/media/upload/thumb/9/91/255Torchic.png/250px-255Torchic.png"
     },
     "mudkip": {
         "name": "Mudkip",
@@ -73,7 +81,8 @@ const pokemon = {
         "type": ["Water"],
         "generation": "Gen 3",
         "ability": ["Torrent", "Damp"],
-        "number": "258"
+        "number": "258",
+        "image": "https://archives.bulbagarden.net/media/upload/thumb/6/60/258Mudkip.png/250px-258Mudkip.png"
     },
     "turtwig": {
         "name": "Turtwig",
@@ -81,7 +90,8 @@ const pokemon = {
         "type": ["Grass"],
         "generation": "Gen 4",
         "ability": ["Overgrow", "Shell Armor"],
-        "number": "387"
+        "number": "387",
+        "image": "https://archives.bulbagarden.net/media/upload/thumb/5/5c/387Turtwig.png/250px-387Turtwig.png"
     },
     "chimchar": {
         "name": "Chimchar",
@@ -89,7 +99,8 @@ const pokemon = {
         "type": ["Fire"],
         "generation": "Gen 4",
         "ability": ["Blaze", "Iron Fist"],
-        "number": "390"
+        "number": "390",
+        "image": "https://archives.bulbagarden.net/media/upload/thumb/7/76/390Chimchar.png/250px-390Chimchar.png"
     },
     "piplup": {
         "name": "Piplup",
@@ -97,7 +108,8 @@ const pokemon = {
         "type": ["Water"],
         "generation": "Gen 4",
         "ability": ["Torrent", "Defiant"],
-        "number": "393"
+        "number": "393",
+        "image": "https://archives.bulbagarden.net/media/upload/thumb/b/b1/393Piplup.png/250px-393Piplup.png"
     },
     "snivy": {
         "name": "Snivy",
@@ -105,7 +117,8 @@ const pokemon = {
         "type": ["Grass"],
         "generation": "Gen 5",
         "ability": ["Overgrow", "Contrary"],
-        "number": "495"
+        "number": "495",
+        "image": "https://archives.bulbagarden.net/media/upload/thumb/7/75/495Snivy.png/250px-495Snivy.png"
     },
     "tepig": {
         "name": "Tepig",
@@ -113,7 +126,8 @@ const pokemon = {
         "type": ["Fire"],
         "generation": "Gen 5",
         "ability": ["Blaze", "Thick Fat"],
-        "number": "498"
+        "number": "498",
+        "image": "https://archives.bulbagarden.net/media/upload/thumb/5/5b/498Tepig.png/250px-498Tepig.png"
     },
     "oshawott": {
         "name": "Oshawott",
@@ -121,7 +135,8 @@ const pokemon = {
         "type": ["Water"],
         "generation": "Gen 5",
         "ability": ["Torrent", "Shell Armor"],
-        "number": "501"
+        "number": "501",
+        "image": "https://archives.bulbagarden.net/media/upload/thumb/3/3b/501Oshawott.png/250px-501Oshawott.png"
     },
     "chespin": {
         "name": "Chespin",
@@ -129,7 +144,8 @@ const pokemon = {
         "type": ["Grass"],
         "generation": "Gen 6",
         "ability": ["Overgrow", "Bulletproof"],
-        "number": "650"
+        "number": "650",
+        "image": "https://archives.bulbagarden.net/media/upload/thumb/c/ca/650Chespin.png/250px-650Chespin.png"
     },
     "fennekin": {
         "name": "Fennekin",
@@ -137,7 +153,8 @@ const pokemon = {
         "type": ["Fire"],
         "generation": "Gen 6",
         "ability": ["Blaze", "Magician"],
-        "number": "653"
+        "number": "653",
+        "image": "https://archives.bulbagarden.net/media/upload/thumb/3/3d/653Fennekin.png/250px-653Fennekin.png"
     },
     "froakie": {
         "name": "Froakie",
@@ -145,7 +162,8 @@ const pokemon = {
         "type": ["Water"],
         "generation": "Gen 6",
         "ability": ["Torrent", "Protean"],
-        "number": "656"
+        "number": "656",
+        "image": "https://archives.bulbagarden.net/media/upload/thumb/1/18/656Froakie.png/250px-656Froakie.png"
     },
     "rowlet": {
         "name": "Rowlet",
@@ -153,7 +171,8 @@ const pokemon = {
         "type": ["Grass", "Flying"],
         "generation": "Gen 7",
         "ability": ["Overgrow", "Long Reach"],
-        "number": "722"
+        "number": "722",
+        "image": "https://archives.bulbagarden.net/media/upload/thumb/7/74/722Rowlet.png/250px-722Rowlet.png"
     },
     "litten": {
         "name": "Litten",
@@ -161,7 +180,8 @@ const pokemon = {
         "type": ["Fire"],
         "generation": "Gen 7",
         "ability": ["Blaze", "Intimidate"],
-        "number": "725"
+        "number": "725",
+        "image": "https://archives.bulbagarden.net/media/upload/thumb/0/0e/725Litten.png/250px-725Litten.png"
     },
     "popplio": {
         "name": "Popplio",
@@ -169,7 +189,8 @@ const pokemon = {
         "type": ["Water"],
         "generation": "Gen 7",
         "ability": ["Torrent", "Liquid Voice"],
-        "number": "728"
+        "number": "728",
+        "image": "https://archives.bulbagarden.net/media/upload/thumb/d/d8/728Popplio.png/250px-728Popplio.png"
     },
     "grookey": {
         "name": "Grookey",
@@ -177,7 +198,8 @@ const pokemon = {
         "type": ["Grass"],
         "generation": "Gen 8",
         "ability": ["Overgrow", "Grassy Surge"],
-        "number": "810"
+        "number": "810",
+        "image": "https://archives.bulbagarden.net/media/upload/thumb/9/93/810Grookey.png/250px-810Grookey.png"
     },
     "scorbunny": {
         "name": "Scorbunny",
@@ -185,7 +207,8 @@ const pokemon = {
         "type": ["Fire"],
         "generation": "Gen 8",
         "ability": ["Blaze", "Libero"],
-        "number": "813"
+        "number": "813",
+        "image": "https://archives.bulbagarden.net/media/upload/thumb/0/06/813Scorbunny.png/250px-813Scorbunny.png"
     },
     "sobble": {
         "name": "Sobble",
@@ -193,7 +216,8 @@ const pokemon = {
         "type": ["Water"],
         "generation": "Gen 8",
         "ability": ["Torrent", "Sniper"],
-        "number": "816"
+        "number": "816",
+        "image": "https://archives.bulbagarden.net/media/upload/thumb/9/9b/816Sobble.png/250px-816Sobble.png"
     },
     "sprigatito": {
         "name": "Sprigatito",
@@ -201,7 +225,8 @@ const pokemon = {
         "type": ["Grass"],
         "generation": "Gen 9",
         "ability": ["Overgrow", "Protean"],
-        "number": "???"
+        "number": "906",
+        "image": "https://archives.bulbagarden.net/media/upload/thumb/e/eb/Sprigatito.png/250px-Sprigatito.png"
     },
     "fuecoco": {
         "name": "Fuecoco",
@@ -209,7 +234,8 @@ const pokemon = {
         "type": ["Fire"],
         "generation": "Gen 9",
         "ability": ["Blaze", "Unaware"],
-        "number": "???"
+        "number": "909",
+        "image": "https://archives.bulbagarden.net/media/upload/thumb/c/cb/Fuecoco.png/250px-Fuecoco.png"
     },
     "quaxly": {
         "name": "Quaxly",
@@ -217,7 +243,8 @@ const pokemon = {
         "type": ["Water"],
         "generation": "Gen 9",
         "ability": ["Torrent", "Moxie"],
-        "number": "???"
+        "number": "912",
+        "image": "https://archives.bulbagarden.net/media/upload/thumb/4/49/Quaxly.png/250px-Quaxly.png"
     },
     "unavailable": {
         "name": null,
@@ -225,7 +252,8 @@ const pokemon = {
         "type": null,
         "generation": null,
         "ability": null,
-        "number": null
+        "number": null,
+        "image": null
     }
 }
 
