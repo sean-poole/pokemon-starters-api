@@ -264,6 +264,10 @@ app.get("/", (request, response) => {
     response.sendFile(__dirname + "/index.html");
 });
 
+app.get("/api/all", (request, response) => {
+    response.json(pokemon);
+});
+
 app.get("/api/:name", (request, response) => {
     const pokemonName = request.params.name.toLowerCase();
     if (pokemon[pokemonName]) {
