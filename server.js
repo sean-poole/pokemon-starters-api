@@ -8,7 +8,7 @@ app.use(cors());
 const pokemon = {
     "bulbasaur": {
         "name": "Bulbasaur",
-        "jp-name": "フシギダネ",
+        "jpname": "フシギダネ",
         "type": ["grass", "poison"],
         "generation": 1,
         "ability": ["Overgrow", "Chlorophyll"],
@@ -17,7 +17,7 @@ const pokemon = {
     },
     "charmander": {
         "name": "Charmander",
-        "jp-name": "ヒトカゲ",
+        "jpname": "ヒトカゲ",
         "type": ["fire"],
         "generation": 1,
         "ability": ["Blaze", "Solar Power"],
@@ -26,7 +26,7 @@ const pokemon = {
     },
     "squirtle": {
         "name": "Squirtle",
-        "jp-name": "ゼニガメ",
+        "jpname": "ゼニガメ",
         "type": ["water"],
         "generation": 1,
         "ability": ["Torrent", "Rain Dish"],
@@ -35,7 +35,7 @@ const pokemon = {
     },
     "chikorita": {
         "name": "Chikorita",
-        "jp-name": "チコリータ",
+        "jpname": "チコリータ",
         "type": ["grass"],
         "generation": 2,
         "ability": ["Overgrow", "Leaf Guard"],
@@ -44,7 +44,7 @@ const pokemon = {
     },
     "cyndaquil": {
         "name": "Cyndaquil",
-        "jp-name": "ヒノアラシ",
+        "jpname": "ヒノアラシ",
         "type": ["fire"],
         "generation": 2,
         "ability": ["Blaze", "Flash Fire"],
@@ -53,7 +53,7 @@ const pokemon = {
     },
     "totodile": {
         "name": "Totodile",
-        "jp-name": "ワニノコ",
+        "jpname": "ワニノコ",
         "type": ["water"],
         "generation": 2,
         "ability": ["Torrent", "Sheer Force"],
@@ -62,7 +62,7 @@ const pokemon = {
     },
     "treecko": {
         "name": "Treecko",
-        "jp-name": "キモリ",
+        "jpname": "キモリ",
         "type": ["grass"],
         "generation": 3,
         "ability": ["Overgrow", "Unburden"],
@@ -71,7 +71,7 @@ const pokemon = {
     },
     "torchic": {
         "name": "Torchic",
-        "jp-name": "アチャモ",
+        "jpname": "アチャモ",
         "type": ["fire"],
         "generation": 3,
         "ability": ["Blaze", "Speed Boost"],
@@ -80,7 +80,7 @@ const pokemon = {
     },
     "mudkip": {
         "name": "Mudkip",
-        "jp-name": "ミズゴロウ",
+        "jpname": "ミズゴロウ",
         "type": ["water"],
         "generation": 3,
         "ability": ["Torrent", "Damp"],
@@ -89,7 +89,7 @@ const pokemon = {
     },
     "turtwig": {
         "name": "Turtwig",
-        "jp-name": "ナエトル",
+        "jpname": "ナエトル",
         "type": ["grass"],
         "generation": 4,
         "ability": ["Overgrow", "Shell Armor"],
@@ -98,7 +98,7 @@ const pokemon = {
     },
     "chimchar": {
         "name": "Chimchar",
-        "jp-name": "ヒコザル",
+        "jpname": "ヒコザル",
         "type": ["fire"],
         "generation": 4,
         "ability": ["Blaze", "Iron Fist"],
@@ -107,7 +107,7 @@ const pokemon = {
     },
     "piplup": {
         "name": "Piplup",
-        "jp-name": "ポッチャマ",
+        "jpname": "ポッチャマ",
         "type": ["water"],
         "generation": 4,
         "ability": ["Torrent", "Defiant"],
@@ -116,7 +116,7 @@ const pokemon = {
     },
     "snivy": {
         "name": "Snivy",
-        "jp-name": "ツタージャ",
+        "jpname": "ツタージャ",
         "type": ["grass"],
         "generation": 5,
         "ability": ["Overgrow", "Contrary"],
@@ -125,7 +125,7 @@ const pokemon = {
     },
     "tepig": {
         "name": "Tepig",
-        "jp-name": "ポカブ",
+        "jpname": "ポカブ",
         "type": ["fire"],
         "generation": 5,
         "ability": ["Blaze", "Thick Fat"],
@@ -134,7 +134,7 @@ const pokemon = {
     },
     "oshawott": {
         "name": "Oshawott",
-        "jp-name": "ミジュマル",
+        "jpname": "ミジュマル",
         "type": ["water"],
         "generation": 5,
         "ability": ["Torrent", "Shell Armor"],
@@ -143,7 +143,7 @@ const pokemon = {
     },
     "chespin": {
         "name": "Chespin",
-        "jp-name": "ハリマロン",
+        "jpname": "ハリマロン",
         "type": ["grass"],
         "generation": 6,
         "ability": ["Overgrow", "Bulletproof"],
@@ -152,7 +152,7 @@ const pokemon = {
     },
     "fennekin": {
         "name": "Fennekin",
-        "jp-name": "フォッコ",
+        "jpname": "フォッコ",
         "type": ["fire"],
         "generation": 6,
         "ability": ["Blaze", "Magician"],
@@ -161,7 +161,7 @@ const pokemon = {
     },
     "froakie": {
         "name": "Froakie",
-        "jp-name": "ケロマツ",
+        "jpname": "ケロマツ",
         "type": ["water"],
         "generation": 6,
         "ability": ["Torrent", "Protean"],
@@ -170,7 +170,7 @@ const pokemon = {
     },
     "rowlet": {
         "name": "Rowlet",
-        "jp-name": "モクロー",
+        "jpname": "モクロー",
         "type": ["grass", "flying"],
         "generation": 7,
         "ability": ["Overgrow", "Long Reach"],
@@ -179,7 +179,7 @@ const pokemon = {
     },
     "litten": {
         "name": "Litten",
-        "jp-name": "ニャビー",
+        "jpname": "ニャビー",
         "type": ["fire"],
         "generation": 7,
         "ability": ["Blaze", "Intimidate"],
@@ -188,7 +188,7 @@ const pokemon = {
     },
     "popplio": {
         "name": "Popplio",
-        "jp-name": "アシマリ",
+        "jpname": "アシマリ",
         "type": ["water"],
         "generation": 7,
         "ability": ["Torrent", "Liquid Voice"],
@@ -197,7 +197,7 @@ const pokemon = {
     },
     "grookey": {
         "name": "Grookey",
-        "jp-name": "サルノリ",
+        "jpname": "サルノリ",
         "type": ["grass"],
         "generation": 8,
         "ability": ["Overgrow", "Grassy Surge"],
@@ -206,7 +206,7 @@ const pokemon = {
     },
     "scorbunny": {
         "name": "Scorbunny",
-        "jp-name": "ヒバニー",
+        "jpname": "ヒバニー",
         "type": ["fire"],
         "generation": 8,
         "ability": ["Blaze", "Libero"],
@@ -215,7 +215,7 @@ const pokemon = {
     },
     "sobble": {
         "name": "Sobble",
-        "jp-name": "メッソン",
+        "jpname": "メッソン",
         "type": ["water"],
         "generation": 8,
         "ability": ["Torrent", "Sniper"],
@@ -224,7 +224,7 @@ const pokemon = {
     },
     "sprigatito": {
         "name": "Sprigatito",
-        "jp-name": "ニャオハ",
+        "jpname": "ニャオハ",
         "type": ["grass"],
         "generation": 9,
         "ability": ["Overgrow", "Protean"],
@@ -233,7 +233,7 @@ const pokemon = {
     },
     "fuecoco": {
         "name": "Fuecoco",
-        "jp-name": "ホゲータ",
+        "jpname": "ホゲータ",
         "type": ["fire"],
         "generation": 9,
         "ability": ["Blaze", "Unaware"],
@@ -242,7 +242,7 @@ const pokemon = {
     },
     "quaxly": {
         "name": "Quaxly",
-        "jp-name": "クワッス",
+        "jpname": "クワッス",
         "type": ["water"],
         "generation": 9,
         "ability": ["Torrent", "Moxie"],
@@ -251,7 +251,7 @@ const pokemon = {
     },
     "unavailable": {
         "name": null,
-        "jp-name": null,
+        "jpname": null,
         "type": [null],
         "generation": null,
         "ability": [null],
